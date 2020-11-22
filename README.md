@@ -28,6 +28,10 @@ The script will output, once every hour:
 
 .\clarity\Scripts\activate
 
+from linux:
+
+source/clarity/bin/activate
+
 to activate the virtual environment.
 
 setup threads, so that the logfile gets written into this directory continously, and the program will generate output every hour in form of a text file called output.
