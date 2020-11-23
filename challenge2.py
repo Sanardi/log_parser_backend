@@ -37,6 +37,7 @@ def excercise2(logfile):
 
             stdoutOrigin=sys.stdout
             sys.stdout = open("hourly_log.txt", "w")
+            print(output)
             sys.stdout.close()
             sys.stdout=stdoutOrigin
 
