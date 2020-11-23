@@ -35,3 +35,6 @@ source/clarity/bin/activate
 to activate the virtual environment.
 
 setup threads, so that the logfile gets written into this directory continously, and the program will generate output every hour in form of a text file called output.
+
+To test the script I have added a row which gives a current time stamp, so you can check who connected to the server during the last hour. 
+When prompted about the server, type Felipe, to see the test result. 
